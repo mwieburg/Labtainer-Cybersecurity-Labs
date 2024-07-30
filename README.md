@@ -12,6 +12,6 @@ Labtainer Image running on my Proxmox Server for virtualization:
 
 
 
-![snort_bad_rule](https://github.com/user-attachments/assets/b08f4b47-4c37-4cd3-a97e-f724f7f1f5ff)
+![snort_confidential_rule](https://github.com/user-attachments/assets/ff5efc4a-7582-490e-a005-c7bdf2f36007)
 
-![snort_bad_rule_traffic](https://github.com/user-attachments/assets/8611a39b-feb6-46eb-bfc7-21b8b5c6220a)
+![snort_confidential_alert](https://github.com/user-attachments/assets/ef68ab35-a012-4ae8-adb8-cf08f4761679)
