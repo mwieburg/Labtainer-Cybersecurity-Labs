@@ -19,3 +19,12 @@ The snort rule for detecting the presence the word "CONFIDENTIAL" in the network
 
 ## 4.7 Distingushing traffic by address
 
+Nmap command from internal workstation triggers ICMP alert
+
+![nmap_command](https://github.com/user-attachments/assets/c2b13aa5-e7ee-43f5-a4f3-17e37c189be5)
+
+![snort_nmap_alert_ICMP](https://github.com/user-attachments/assets/b616758c-8966-41cb-81a8-1c8c88b878fa)
+
+Internal workstation ws2 accesses the confidential plan page and no alert is triggered from the IDS as expected
+
+![snort_internal_no_confidential_alert](https://github.com/user-attachments/assets/8a41e8a1-142f-48f7-ae36-0f0a5d0d3e20)
