@@ -1,4 +1,4 @@
-#SEE snort.pdf lab manual for specific objective details for the solutions below
+# SEE snort.pdf lab manual for specific objective details for the solutions below
 
 
 ## 4.3 Write a simple bad rule
