@@ -13,5 +13,9 @@ The alert for tcp traffic will issue an alert every time tcp traffic is detected
 ## 4.4 Custom rule for CONFIDENTIAL traffic
 The snort rule for detecting the presence the word "CONFIDENTIAL" in the network traffic will raise an alert when sensitive information is shared:
 
+![snort_confidential_rule](https://github.com/user-attachments/assets/ff5efc4a-7582-490e-a005-c7bdf2f36007)
+
+![snort_confidential_alert](https://github.com/user-attachments/assets/ef68ab35-a012-4ae8-adb8-cf08f4761679)
+
 ## 4.7 Distingushing traffic by address
 
