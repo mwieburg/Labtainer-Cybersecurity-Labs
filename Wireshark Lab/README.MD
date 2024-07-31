@@ -9,6 +9,8 @@ Once the traffic was filtered, the invalid password was identified and saved to 
 
 ![ws_telnet_filter](https://github.com/user-attachments/assets/92acfc49-fabc-4d57-8607-dca1040d86e8)
 
+Invalid password packet identified
+
 ![ws_telnet_john_password](https://github.com/user-attachments/assets/85ed8ffd-b977-4d57-adf5-444b08ae3206)
 
 ![ws_telnet_invalidpassword_pcap](https://github.com/user-attachments/assets/d2654dc0-f8ab-41eb-908f-5d802e9d5ce5)
