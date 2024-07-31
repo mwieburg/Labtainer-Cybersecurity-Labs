@@ -13,6 +13,8 @@ Invalid password packet identified
 
 ![ws_telnet_john_password](https://github.com/user-attachments/assets/85ed8ffd-b977-4d57-adf5-444b08ae3206)
 
+Invalid password packet identified saved to seperate pcap file
+
 ![ws_telnet_invalidpassword_pcap](https://github.com/user-attachments/assets/d2654dc0-f8ab-41eb-908f-5d802e9d5ce5)
 
 ## 3.4 Explore some more
