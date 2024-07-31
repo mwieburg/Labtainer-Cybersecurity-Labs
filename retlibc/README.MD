@@ -4,7 +4,7 @@
 ## 3.2 Task 1: Exploiting the vulnerability
 
 After the initial setup, the objective of this project is to get a root shell by exploiting a buffer overflow vulnerability present in the retlib.c program. To achieve this, I modified the exploit.c 
-file to include the proper stack addresses to jump to after the buffer overflow is exploited. The proper stack addresses for system() and exit() were discovered by using the Linux GDB debugger on the retlib.c file.
+file to include the proper stack addresses to jump to after the buffer overflow is exploited. The proper addresses for system() and exit() were discovered by using the Linux GDB debugger on the retlib.c file.
 For the address of bin/sh, the MYSHELL system variable needs to set using export MYSHELL=/bin/sh
 
 ![retlibc_retlic_c_file](https://github.com/user-attachments/assets/b39217dd-8a50-4162-959f-384b11ae226a)
