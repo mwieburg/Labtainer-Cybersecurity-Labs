@@ -17,9 +17,13 @@ Snort rule for alerting when the confidential plan.html page is accessed
 
 ![snort_confidential_rule](https://github.com/user-attachments/assets/ff5efc4a-7582-490e-a005-c7bdf2f36007)
 
+Accessing the www.example.com/plan.html page triggers the alert and sends to console
+
 ![snort_confidential_alert](https://github.com/user-attachments/assets/ef68ab35-a012-4ae8-adb8-cf08f4761679)
 
 ## 4.7 Distingushing traffic by address
+
+Internal workstations should be able to view the www.example.com/plan.html page without triggering an alert, however NMAP scans from any workstation should cause an ICMP alert
 
 Nmap command from internal workstation triggers ICMP alert
 
