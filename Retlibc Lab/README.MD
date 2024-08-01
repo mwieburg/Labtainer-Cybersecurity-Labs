@@ -10,6 +10,7 @@ For the address of bin/sh, the MYSHELL system variable needs to set using export
 ![retlibc_retlic_c_file](https://github.com/user-attachments/assets/b39217dd-8a50-4162-959f-384b11ae226a)
 
 Add the addresses to the X,Y, and Z variables to perform the buffer overflow exploit to system() function and perform actions on objectives from the kill chain
+
 ![retlibc_exploit_c_change](https://github.com/user-attachments/assets/14075b2e-048f-436d-b34f-efc845f02381)
 
 After running the compile_exploit.sh file, our badfile is generated and contains the code to take advantage of the buffer overflow
