@@ -43,8 +43,8 @@ default permissions established for bob
 To accomplish this task, I updated the 'fun' file in bob's folder to copy the accounting.txt file to /shared_data/bob/acctbob1.txt when alice or harry run bob's 'fun' script. 
 This is a sneaky attempt to get access to information that bob would not normally be authorized to view. 
 
-Bob's trojan horse 'fun' script
 
+Bob's trojan horse 'fun' script
 
 ![bob_fun_script](https://github.com/user-attachments/assets/34cda6ab-5c0b-428b-bf10-12690626a922)
 
