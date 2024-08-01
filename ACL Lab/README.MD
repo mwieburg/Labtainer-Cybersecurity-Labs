@@ -45,13 +45,14 @@ This is a sneaky attempt to get access to information that bob would not normall
 
 Bob's trojan horse 'fun' script
 
+
 ![bob_fun_script](https://github.com/user-attachments/assets/34cda6ab-5c0b-428b-bf10-12690626a922)
 
 Bob is not able to read the accounting.txt file from the /shared_data location
 
 ![bob_not_able_to_read](https://github.com/user-attachments/assets/8ce94074-f895-42ba-b342-4ab7d92761c6)
 
-After alice run bob's 'fun' script, a copy of the accounting.txt file is copied to bob's folder and bob is able to view the information from his directory /shared_home/bob
+After alice runs bob's 'fun' script, a copy of the accounting.txt file is sent to bob's folder and bob is able to view the information from his directory /shared_home/bob
 
 ![bob_able_to_read_after_script](https://github.com/user-attachments/assets/597e8d01-d327-474b-8220-3a09ee70bfef)
 
