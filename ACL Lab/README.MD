@@ -16,6 +16,10 @@ After logging into the terminals as bob, alice, and harry, the setfacl command w
 
 ![setfacl_alice_bobstuff2](https://github.com/user-attachments/assets/c8e0a8b0-96b0-4253-a123-69598bc294b6)
 
+Alice able to read bobstuff.txt after updating LINUX ACLs
+
+![alice_reads_bobstuff](https://github.com/user-attachments/assets/c08baa99-255e-411e-971e-cd6481669bab)
+
 Harry still not able to read bobstuff.txt
 
 ![harry_notable_toread_bobstuff](https://github.com/user-attachments/assets/1e52a0c5-e06c-46d4-9930-40d31d3c9742)
