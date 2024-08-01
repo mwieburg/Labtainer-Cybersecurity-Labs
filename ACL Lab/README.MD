@@ -12,6 +12,13 @@ The "+" on a file's permissions designates that the file has additional ACL perm
 
 After logging into the terminals as bob, alice, and harry, the setfacl command was ran to allow alice to read the /shared_data/bob/bobstuff.txt file. Harry should not be able to read bobstuff.txt after the file permission change
 
+![setfacl_alice_bobstuff](https://github.com/user-attachments/assets/e727e0de-398d-4f63-8df1-23ea504c4afa)
+
+![setfacl_alice_bobstuff2](https://github.com/user-attachments/assets/c8e0a8b0-96b0-4253-a123-69598bc294b6)
+
+Harry still not able to read bobstuff.txt
+
+![harry_notable_toread_bobstuff](https://github.com/user-attachments/assets/1e52a0c5-e06c-46d4-9930-40d31d3c9742)
 
 
 ## 4.3 Task 2: Set an default ACL for a directory
