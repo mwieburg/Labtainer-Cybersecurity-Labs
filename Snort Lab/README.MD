@@ -24,6 +24,8 @@ Accessing the www.example.com/plan.html page triggers the alert and sends to con
 ## 4.7 Distingushing traffic by address
 
 Internal workstations should be able to view the www.example.com/plan.html page without triggering an alert, however NMAP scans from any workstation should cause an ICMP alert
+This is accomplished by using the local rule of "alert tcp any any -> 192.168.1.10 any (msg:"CONFIDENTIAL page traffic";content:"CONFIDENTIAL";99994;).
+192.168.1.10 is the IP address of the external gateway which all external traffic flows though, thus triggering an alert for traffic outside of the internal network and not for internal workstations
 
 Nmap command from internal workstation triggers ICMP alert
 
