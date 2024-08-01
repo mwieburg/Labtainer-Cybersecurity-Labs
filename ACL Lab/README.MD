@@ -30,9 +30,11 @@ Harry still not able to read bobstuff.txt
 Bob needs to have read permissions on alice's folder by default. This will allow bob to view any newly created files in the 'alice' folder. This can be achieved by using the setfacl command:
 
 setfacl command to give bob default permissions
+
 ![setfacl_bob_default_alice](https://github.com/user-attachments/assets/a27bae74-fbac-44b4-9c74-3b3c5ac21b89)
 
 default permissions established for bob
+
 ![getfacl_bob_default_alice](https://github.com/user-attachments/assets/9af8cd36-01df-4154-bc42-59e2ce9de1ff)
 
 
